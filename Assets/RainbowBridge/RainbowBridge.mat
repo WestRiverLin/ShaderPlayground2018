@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RainbowBridge
+  m_Shader: {fileID: 4800000, guid: cff7e109880109f42a4f7d2cadd8d0ed, type: 3}
+  m_ShaderKeywords: DRAW_RIM USE_FOG
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Bloom:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplGuide:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1be9335b952c9ca4692780af40c0e32d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecTex:
+        m_Texture: {fileID: 2800000, guid: cae151c39607a9f409caa907efba9ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirTexMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirdTex:
+        m_Texture: {fileID: 2800000, guid: 31f5a8611c4ed1245b18456206e798dc, type: 3}
+        m_Scale: {x: 1, y: 0}
+        m_Offset: {x: 5, y: 0}
+    - _niuqu_tex:
+        m_Texture: {fileID: 2800000, guid: b0e0b947a09f58047975c0f1aac9528d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.5
+    - _BlendOp: 0
+    - _BlurSize: 1
+    - _BottomFoamThreshold: 0.1
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DisplAmount: 0
+    - _DissolveFactor: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 0
+    - _DstBlendMode: 0
+    - _EdgeWidth: 0.1
+    - _EmissionEnabled: 0
+    - _EquatorAmbientSensitivity: 0.2
+    - _F0: -1.71
+    - _FPOW: 5
+    - _FPower: 4.03
+    - _FadeRange: 4
+    - _FlipbookMode: 0
+    - _FlowSpeedX: 1
+    - _FlowSpeedY: 1
+    - _FresnelPower: 2
+    - _GLOW: 0.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GroundAmbientSensitivity: 0.2
+    - _Intensity: 1
+    - _InvFade: 1
+    - _LightThreshold: -1
+    - _LightingEnabled: 1
+    - _LightmapAdd: 0.5
+    - _LightmapIntensity: 0.5
+    - _LuminanceThreshold: 0.5
+    - _MainAmbientSensitivity: 0
+    - _MainTexChangingFrequency: 1
+    - _MainTexChangingStrength: 0.1
+    - _MainTexEmissionStrength: 0.2
+    - _MainTexFrequency: 1
+    - _MainTexRange: 5
+    - _MainTexStrength: 0.9
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QD: 0.05
+    - _R0: 0.05
+    - _Rim: 1
+    - _RimThreshold: -1
+    - _SPF0: 0
+    - _SPFPower: 2
+    - _SPRim: 0
+    - _SPRimThreshold: -1
+    - _SecTexSpeed: -0.5
+    - _SecTexStrength: 0.6
+    - _ShadowIntensity: 0.8
+    - _ShiningBrightness: 1
+    - _ShiningSpeed: 2
+    - _ShiningStrength: 1
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SpecularRange: 0.5
+    - _SpecularTransitionRange: 0
+    - _Speed: 0.2
+    - _SrcBlend: 1
+    - _TexAnim: 0
+    - _TexSpeedX: 0
+    - _TexSpeedY: 0
+    - _ThirdTexAddMode: 0
+    - _ThirdTexSpeed: 0.25
+    - _ThirdTexStrength: 0.25
+    - _TopY: 0
+    - _TransitionIntensity: 0.2
+    - _TransitionRange: 0
+    - _U: 0
+    - _UVSec: 0
+    - _U_2: 0
+    - _UseAmbientLight: 0
+    - _UseFog: 1
+    - _UseFresnel: 0
+    - _UseModelCut: 0
+    - _UseSecondTex: 0
+    - _UseSpecFade: 0
+    - _UseThirdTex: 0
+    - _UseThirdTexEffect: 0
+    - _V: 0
+    - _V_2: 0
+    - _VertYOffset: 0
+    - _ZOffset: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BackgroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _BloomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+    - _ColorBottomDark: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorBottomLight: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTopDark: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTopLight: {r: 1, g: 1, b: 1, a: 1}
+    - _CrystalColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.09055714, g: 0.3069754, b: 0.3490566, a: 0.5}
+    - _SPRimColor: {r: 1, g: 1, b: 0, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ThirTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0.39607844}

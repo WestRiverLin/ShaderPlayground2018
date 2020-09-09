@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DissolveFire2
+  m_Shader: {fileID: 4800000, guid: c6f5b9dd64eac294fa32c373471aceab, type: 3}
+  m_ShaderKeywords: DRAW_RIM DRAW_SPRIM
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTex:
+        m_Texture: {fileID: 2800000, guid: 7a28ed01ef4c1fe408c719c50b61190c, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FourthTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2ea55479839d8ad47bc6506c419b5508, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirTexMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DissolveFactor: 1
+    - _DstBlend: 0
+    - _EdgeWidth: 0.1
+    - _F0: -2
+    - _FPower: 2
+    - _FireRootThreshold: 0
+    - _FlowSpeed: 2
+    - _FlowSpeedX: 1
+    - _FlowSpeedY: 1
+    - _FourthTexBrightness: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _InnerBrightness: 1.48
+    - _InnerPower: 2.63
+    - _LightThreshold: 0.3
+    - _Metallic: 0
+    - _Mode: 0
+    - _NdVThreshold: 1
+    - _OcclusionStrength: 1
+    - _OuterBrightness: 1
+    - _Parallax: 0.02
+    - _Rim: 1
+    - _RimThreshold: 0
+    - _SPF0: 0
+    - _SPFPower: 4.7
+    - _SPRim: 1
+    - _SPRimThreshold: -1
+    - _ShadowIntensity: 1
+    - _ShiningBrightness: 1
+    - _ShiningSpeed: 2
+    - _ShiningStrength: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularRange: 0.5
+    - _SpecularTransitionRange: 0
+    - _SrcBlend: 1
+    - _TailFade: 0.95
+    - _ThirdTexAddMode: 0
+    - _ToonSpecStrength: 0.2
+    - _ToonSpecThreshold: 0.8
+    - _ToonSpecTransitionRange: 0.05
+    - _TransitionIntensity: 0.03
+    - _TransitionRange: 0.3
+    - _UVSec: 0
+    - _UVYPower: 4.74
+    - _UseFourthTex: 0
+    - _UseSecondTex: 0
+    - _UseSpecFade: 0
+    - _UseThirdTex: 0
+    - _UseThirdTexEffect: 0
+    - _UseToonSpec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FourthTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
+    - _InnerColor: {r: 0.9882353, g: 0.6431373, b: 0.0039215535, a: 1}
+    - _OuterColor: {r: 0.9716981, g: 0.2586435, b: 0.050418302, a: 1}
+    - _RimColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _SPRimColor: {r: 0.9921569, g: 0.43921572, b: 0.015686275, a: 1}
+    - _ShadowColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ThirTexColor: {r: 1, g: 1, b: 1, a: 1}
